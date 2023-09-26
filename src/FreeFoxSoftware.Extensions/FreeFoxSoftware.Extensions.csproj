@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Version>0.0.1-alpha.1</Version>
+        <PackageId>FreeFoxSoftware.Extensions</PackageId>
+        <Title>FreeFoxSoftware.Extensions</Title>
+        <Authors>FreeFoxSoftware</Authors>
+        <PackageReadmeFile>Readme.md</PackageReadmeFile>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/FreeFoxSoftware/FreeFoxSoftware.Extensions</PackageProjectUrl>
+        <Description>A set of extension methods that are useful for any project</Description>
+        <PackageTags>FreeFoxSoftware, Extensions</PackageTags>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <DocumentationFile>bin\Debug\FreeFoxSoftware.Core.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DocumentationFile>bin\Release\FreeFoxSoftware.Core.xml</DocumentationFile>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="../../Readme.md" Pack="true" PackagePath="/">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+</Project>
