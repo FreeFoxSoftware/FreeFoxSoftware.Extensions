@@ -1,8 +1,8 @@
-using System.Collections.Generic;
-using System.Linq;
-
 namespace FreeFoxSoftware.Extensions.CollectionExtensions;
 
+/// <summary>
+/// A set of Collection extensions
+/// </summary>
 public static partial class CollectionExtensions
 {
         
