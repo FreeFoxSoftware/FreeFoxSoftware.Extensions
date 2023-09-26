@@ -1,5 +1,8 @@
 namespace FreeFoxSoftware.Extensions.ObjectExtensions;
 
+/// <summary>
+/// A set of Object extensions
+/// </summary>
 public static partial class ObjectExtensions
 {
     /// <summary>

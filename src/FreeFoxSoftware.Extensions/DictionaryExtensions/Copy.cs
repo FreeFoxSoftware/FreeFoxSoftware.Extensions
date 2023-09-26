@@ -1,8 +1,8 @@
-using System.Collections.Generic;
-using System.Linq;
-
 namespace FreeFoxSoftware.Extensions.DictionaryExtensions;
 
+/// <summary>
+/// A set of Dictionary extensions
+/// </summary>
 public static partial class DictionaryExtensions
 {
     /// <summary>
